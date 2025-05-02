@@ -1,0 +1,9 @@
+class: SalesTrend
+fields:
+  period: String
+  totalSales: double
+  totalQuantity: int
+  averageOrderValue: double
+  growthRate: double
+  topProducts: List<TopProduct>
+  categoryBreakdown: List<CategoryBreakdown> 

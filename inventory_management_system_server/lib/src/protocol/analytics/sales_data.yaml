@@ -1,0 +1,6 @@
+class: SalesData
+fields:
+  date: DateTime
+  sales: double
+  revenue: double
+  orders: int 

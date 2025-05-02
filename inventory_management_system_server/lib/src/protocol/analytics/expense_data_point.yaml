@@ -1,0 +1,4 @@
+class: ExpenseDataPoint
+fields:
+  date: DateTime
+  amount: double

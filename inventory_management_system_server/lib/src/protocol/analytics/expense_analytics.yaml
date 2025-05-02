@@ -1,0 +1,8 @@
+class: ExpenseAnalytics
+fields:
+  totalExpenses: double
+  avgMonthlyExpense: double
+  growthRate: double
+  expenseRatio: double
+  trendData: List<ExpenseDataPoint>
+  topCategories: List<ExpenseCategory>

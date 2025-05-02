@@ -1,0 +1,28 @@
+class: Sale
+table: sales
+fields:
+  invoiceNumber: String
+  saleDate: DateTime
+  partyId: int
+  totalAmount: double
+  discountAmount: double?
+  taxAmount: double
+  netAmount: double
+  paidAmount: double
+  balanceAmount: double
+  saleType: String  # 'spot' or 'credit'
+  status: String  # 'pending', 'completed', 'cancelled'
+  userId: int  # reference to the user who created the sale
+  notes: String?
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  sale_invoice_idx:
+    fields: invoiceNumber
+    unique: true
+  sale_party_idx:
+    fields: partyId
+  sale_date_idx:
+    fields: saleDate
+  sale_status_idx:
+    fields: status 

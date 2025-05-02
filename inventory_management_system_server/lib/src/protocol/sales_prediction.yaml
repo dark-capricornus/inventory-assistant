@@ -1,0 +1,6 @@
+class: SalesPrediction
+fields:
+  date: DateTime
+  predictedSales: double
+  confidence: double
+  historicalData: List<double> 

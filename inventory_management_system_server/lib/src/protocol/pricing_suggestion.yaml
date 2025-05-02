@@ -1,0 +1,9 @@
+class: PricingSuggestion
+fields:
+  productId: String
+  currentPrice: double
+  suggestedPrice: double
+  expectedDemand: double
+  priceElasticity: double
+  expectedImpact: double
+  reason: String 

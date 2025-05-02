@@ -1,0 +1,5 @@
+class: ExpenseCategory
+fields:
+  name: String
+  amount: double
+  percentage: double

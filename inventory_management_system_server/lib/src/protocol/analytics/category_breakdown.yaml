@@ -1,0 +1,6 @@
+class: CategoryBreakdown
+fields:
+  category: String
+  sales: double
+  percentageOfTotal: double
+  quantitySold: int 

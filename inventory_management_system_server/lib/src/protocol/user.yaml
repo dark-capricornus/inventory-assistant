@@ -1,0 +1,17 @@
+class: User
+table: users
+fields:
+  username: String
+  email: String
+  passwordHash: String
+  role: String
+  lastLogin: DateTime?
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  username_idx:
+    fields: username
+    unique: true
+  email_idx:
+    fields: email
+    unique: true 

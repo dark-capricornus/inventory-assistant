@@ -1,0 +1,14 @@
+class: PurchaseOrder
+table: purchase_orders
+fields:
+  productId: int
+  quantity: int
+  status: String
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  po_product_date_idx:
+    fields: productId, createdAt
+    unique: true
+  po_status_idx:
+    fields: status 

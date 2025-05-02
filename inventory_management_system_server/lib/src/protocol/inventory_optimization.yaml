@@ -1,0 +1,8 @@
+class: InventoryOptimization
+fields:
+  productId: String
+  currentStock: int
+  recommendedStock: int
+  reorderPoint: int
+  safetyStock: int
+  reason: String 

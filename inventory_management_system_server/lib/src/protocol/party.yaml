@@ -1,0 +1,23 @@
+class: Party
+table: parties
+fields:
+  code: String
+  name: String
+  type: String  # 'customer' or 'supplier'
+  contactPerson: String?
+  email: String?
+  phone: String
+  address: String
+  gstNumber: String?
+  creditLimit: double?
+  currentBalance: double
+  isActive: bool
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  party_code_idx:
+    fields: code
+    unique: true
+  party_phone_idx:
+    fields: phone
+    unique: true 

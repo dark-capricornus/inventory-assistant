@@ -1,0 +1,17 @@
+class: SaleItem
+table: sale_items
+fields:
+  saleId: int
+  productId: int
+  quantity: double
+  unitPrice: double
+  discount: double?
+  tax: double
+  totalAmount: double
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  sale_item_sale_idx:
+    fields: saleId
+  sale_item_product_idx:
+    fields: productId 

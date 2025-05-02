@@ -1,0 +1,6 @@
+class: DailySales
+fields:
+  date: DateTime
+  totalSales: double
+  totalQuantity: int
+  numberOfOrders: int 

@@ -1,0 +1,21 @@
+class: Product
+table: products
+fields:
+  name: String
+  description: String?
+  sku: String
+  category: String
+  unit: String
+  purchasePrice: double
+  sellingPrice: double
+  minStockLevel: int
+  currentStock: int
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  sku_idx:
+    fields: sku
+    unique: true
+  name_idx:
+    fields: name
+    unique: true 

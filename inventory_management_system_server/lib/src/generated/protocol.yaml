@@ -1,0 +1,48 @@
+analytics:
+  - getSalesForecast:
+  - getInventoryOptimization:
+  - getPricingSuggestion:
+auth:
+  - login:
+  - register:
+billing:
+  - createSale:
+  - getSalesByDateRange:
+  - getSalesByParty:
+  - updateSaleStatus:
+  - recordPayment:
+greeting:
+  - hello:
+inventory:
+  - getStockStatus:
+  - getLowStockItems:
+  - updateStock:
+  - generatePurchaseOrders:
+masterData:
+  - createProduct:
+  - updateProduct:
+  - deleteProduct:
+  - getAllProducts:
+  - getProductBySku:
+  - createSupplier:
+  - updateSupplier:
+  - deleteSupplier:
+  - getAllSuppliers:
+  - createCustomer:
+  - updateCustomer:
+  - deleteCustomer:
+  - getAllCustomers:
+  - createCategory:
+  - updateCategory:
+  - deleteCategory:
+  - getAllCategories:
+  - getAllCategoriesDetailed:
+  - getAllCategoryNames:
+  - getAllUnits:
+  - createExpense:
+  - updateExpense:
+  - deleteExpense:
+  - getAllExpenses:
+  - getExpenseByNumber:
+  - getAllExpenseCategories:
+  - getAllExpenseStatuses:

@@ -1,0 +1,23 @@
+class: Expense
+table: expenses
+fields:
+  expenseNumber: String
+  category: String
+  amount: double
+  description: String?
+  date: DateTime
+  paymentMethod: String
+  status: String  # 'paid', 'pending'
+  userId: int  # reference to the user who created the expense
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  expense_number_idx:
+    fields: expenseNumber
+    unique: true
+  expense_category_idx:
+    fields: category
+  expense_date_idx:
+    fields: date
+  expense_status_idx:
+    fields: status 

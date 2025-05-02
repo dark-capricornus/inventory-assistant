@@ -1,0 +1,10 @@
+class: SalesAnalytics
+fields:
+  totalSales: double
+  totalRevenue: double
+  averageOrderValue: double
+  numberOfOrders: int
+  salesData: List<SalesData>
+  topProducts: List<TopProduct>
+  salesTrend: List<DailySales>
+  paymentMethodBreakdown: Map<String, double> 

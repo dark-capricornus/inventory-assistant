@@ -1,0 +1,13 @@
+class: Category
+table: categories
+fields:
+  name: String
+  description: String?
+  parentCategoryId: int?
+  productCount: int?
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  category_name_idx:
+    fields: name
+    unique: true

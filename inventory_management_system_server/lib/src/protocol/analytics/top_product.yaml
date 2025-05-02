@@ -1,0 +1,7 @@
+class: TopProduct
+fields:
+  productId: String
+  productName: String
+  quantitySold: int
+  revenue: double
+  percentageOfTotal: double 

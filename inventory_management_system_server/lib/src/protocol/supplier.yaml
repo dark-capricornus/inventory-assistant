@@ -1,0 +1,22 @@
+class: Supplier
+table: suppliers
+fields:
+  supplierCode: String
+  name: String
+  contactPerson: String?
+  email: String?
+  phone: String?
+  address: String?
+  gstin: String?
+  createdAt: DateTime
+  updatedAt: DateTime
+indexes:
+  supplier_code_idx:
+    fields: supplierCode
+    unique: true
+  supplier_name_idx:
+    fields: name
+  supplier_email_idx:
+    fields: email
+  supplier_phone_idx:
+    fields: phone

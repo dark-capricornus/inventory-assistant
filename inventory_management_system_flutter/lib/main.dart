@@ -42,7 +42,7 @@ void main() {
   // Try different fallbacks for connection
   final serverUrl = serverUrlFromEnv.isNotEmpty 
       ? serverUrlFromEnv
-      : 'http://192.168.25.35:8080/'; // Use your computer's local IP address on the same network
+      : 'http://192.168.60.35:8080/'; // Use your computer's local IP address on the same network
   
   // For debug output about connection issues
   debugPrint('Connecting to server at: $serverUrl');

@@ -11,7 +11,7 @@ class ApiService {
   ApiService._internal();
 
   // Base API URL - change this to your actual backend URL
-  final String baseUrl = 'http://192.168.25.35:8080/api';
+  final String baseUrl = 'http://192.168.60.35:8080/api';
   
   // Common headers used in requests
   Map<String, String> get headers => {

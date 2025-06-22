@@ -124,6 +124,9 @@ Deployment scripts are available for:
 API endpoints are documented in:
 - `inventory_management_system_client/doc/endpoint.md`
 
+## Flow Diagram
+<img width="1076" alt="Inventory manager" src="https://github.com/user-attachments/assets/cc856fad-2348-474f-90e7-ea9a94aada21">
+
 ## Support
 
 For questions and support, please open an issue in the project repository or contact the development team.
